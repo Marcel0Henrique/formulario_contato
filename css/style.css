@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url('../img/bg.jpg');
+    background-image: url('https://raw.githubusercontent.com/Marcel0Henrique/formulario_contato/master/img/bg.jpg');
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
