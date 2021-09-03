@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://images.hdqwalls.com/download/minimalist-landscape-to-1920x1080.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:left;
+    
+
+    margin-left: 45rem;
+    margin-right: 45rem;
+    padding: 20px;
+    background-color: #26a69991;
+    border-radius: 5px;
+
+    color: white;
+    
+}
+
+.formulario label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+
+
+div{
+    
+    margin: 0.5vh;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+.assunto input{
+    width: 100%;
+    height: 55%;
+    border:2px rgba(0, 0, 0, 0) solid;
+    border-radius: 3px;
+}
+.nome input{
+    width: 100%;
+    height: 55%;
+    border:2px rgba(0, 0, 0, 0) solid;
+    border-radius: 3px;
+}
+.sobrenome input{
+    width: 100%;
+    height: 55%;
+    border:2px rgba(0, 0, 0, 0) solid;
+    border-radius: 3px;
+}
+.email input{
+    width: 100%;
+    height: 55%;
+    border:2px rgba(0, 0, 0, 0) solid;
+    border-radius: 3px;
+}
+.telefone input{
+    width: 100%;
+    height: 55%;
+    border:2px rgba(0, 0, 0, 0) solid;
+    border-radius: 3px;
+}
+
+
+.nascimento input{
+    
+    height: 40%;
+    border:2px rgba(0, 0, 0, 0) solid;
+    border-radius: 3px;
+}
+
+.sexo select{
+    text-align: center;
+}
+
+
+.mensagem textarea{
+    resize: none;
+    width: 100%;
+    border:2px rgba(0, 0, 0, 0) solid;
+    border-radius: 3px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.btn-enviar input{
+    margin-top: 1rem;
+    font-size: 18px;
+    background-color: royalblue;
+    color: white;
+    border: 5px;
+    border-radius: 2px;
+    width: 100%;
+    height: 4vh;
+}
+
+.btn-enviar input:hover{
+    background-color: green;
+}

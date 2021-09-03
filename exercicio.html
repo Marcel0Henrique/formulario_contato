@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contato</title>
+
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h2 class="titulo">Formulário para contato</h2>
+    <form action="" class="formulario">
+
+        <div class="assunto">
+            <label for="assunto">Assunto*</label>
+            <br>
+            <input type="text" name="assunto" id="assunto" required>
+        </div>
+
+
+        <div class="nome">
+            <label for="nome">Nome*</label>
+            <br>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+
+
+        <div class="sobrenome">
+            <label for="sobrenome">Sobrenome*</label>
+            <br>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+
+
+        <div class="email">
+            <label for="email">Email*</label>
+            <br>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+
+        <div class="telefone">
+            <label for="telefone">Telefone*</label>
+            <br>
+            <input type="tel" name="telefone" id="telefone" required>
+        </div>
+        
+
+
+        <div class="nascimento">
+            <label for="nascimento">Data de Nascimento</label>
+            <br>
+            <input type="date" name="nascimento" id="nascimento">
+        </div>
+
+
+        <div class="sexo">
+            <label for="sexo">Sexo:</label>
+            <select name="sexo" id="sexo">
+                <option value="sexo">Masculino</option>
+                <option value="sexo">Feminino</option>
+                <option value="sexo">Prefiro não dizer</option>
+            </select>
+        </div>
+
+
+        <div class="setor">
+            <label for="">Desejo falar com:</label>
+            <br>
+            <input type="radio" name="setor" id="setor" value="fianceiro">
+            <label for="">Financeiro</label>
+            <br>
+            <input type="radio" name="setor" id="setor" value="suporte">
+            <label for="">Suporte</label>
+            <br>
+            <input type="radio" name="setor" id="setor" value="secretaria">
+            <label for="">Secretaria</label>
+
+        </div>
+
+
+        <div class="mensagem">
+            <label for="">Mensagem:*</label>
+            <br>
+            <textarea name="mensagem" id="" cols="50" rows="10" required></textarea>
+        </div>
+
+        <div    class="btn-enviar">
+            <input type="submit" value="Enviar">
+        </div>
+
+
+    </form>
+</body>
+</html>
