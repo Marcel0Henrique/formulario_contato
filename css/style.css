@@ -4,11 +4,14 @@
 }
 
 body{
-    background-image: url('https://images.hdqwalls.com/download/minimalist-landscape-to-1920x1080.jpg');
+    background-image: url('/img/bg.jpg');
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
+
+    margin-left: 40rem;
+    margin-right: 40rem;
 }
 
 
@@ -32,9 +35,11 @@ body{
     flex-wrap: wrap;
     justify-content:left;
     
-
-    margin-left: 45rem;
-    margin-right: 45rem;
+    max-width: 80rem;
+    max-height: 55rem;
+    
+    margin-left: 3rem;
+    margin-right: 3rem;
     padding: 20px;
     background-color: #26a69991;
     border-radius: 5px;
@@ -55,8 +60,6 @@ div{
     margin: 0.5vh;
     margin-bottom: 1rem;
 }
-
-
 
 
 
